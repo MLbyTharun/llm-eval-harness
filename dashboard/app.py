@@ -66,7 +66,7 @@ leaderboard.columns= ["Model", "Strategy", "Exact Match", "Token F1", "Execution
 
 st.dataframe(
     leaderboard,
-    use_container_width = True,
+    width = "stretch",
     hide_index = True
 )
 
